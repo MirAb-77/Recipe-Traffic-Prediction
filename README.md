@@ -8,6 +8,21 @@ The challenge is to predict high-traffic recipes with an accuracy of **80% or ab
 
 ---
 
+## 📝 **Dataset Details**
+
+| Column Name    | Description                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| `recipe`       | Numeric, unique identifier of the recipe                                    |
+| `calories`     | Numeric, number of calories per serving                                     |
+| `carbohydrate` | Numeric, grams of carbohydrates                                             |
+| `sugar`        | Numeric, grams of sugar                                                     |
+| `protein`      | Numeric, grams of protein                                                   |
+| `category`     | Categorical, one of 10 recipe categories (e.g., 'Lunch/Snacks', 'Dessert')   |
+| `servings`     | Numeric, number of servings per recipe                                      |
+| `high_traffic` | Categorical, whether the traffic for the recipe was "High" or not           |
+
+---
+
 ## 🌐 **Live Demo & Webpage**
 
 Explore the interactive **Recipe Traffic Prediction Tool** on the live webpage:
@@ -24,7 +39,6 @@ This webpage allows users to input their own recipe details and get predictions 
 
 ### 3. Prediction Portion
 <img width="949" alt="Prediction_Page" src="https://github.com/user-attachments/assets/1bfa5006-cdcf-43d0-83e5-bbeeaeab31f0">
-
 
 ---
 
@@ -53,15 +67,6 @@ This webpage allows users to input their own recipe details and get predictions 
 
 5. **Business Metric**
    - We aimed to align our model performance with the business goal of correctly predicting high-traffic recipes **80% of the time**. Random Forest met this threshold, offering reliable predictions for future recipe selections.
-
----
-
-## 💻 **Code & Implementation**
-You can find the complete implementation of this project, including **data validation**, **model development**, and **evaluation**, in the following files:
-
-- [Data Validation & Cleaning](./scripts/data_validation.ipynb)
-- [Exploratory Data Analysis (EDA)](./scripts/EDA.ipynb)
-- [Model Development & Evaluation](./scripts/model_development.ipynb)
 
 ---
 
