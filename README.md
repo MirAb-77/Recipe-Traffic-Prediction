@@ -84,15 +84,6 @@ This webpage allows users to input their own recipe details and get predictions 
 
 ---
 
-## 🎥 **Demo Video**
-Watch the project in action:
-<video width="640" height="480" controls>
-  <source src="path/to/Prediction_of_Recipe.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
----
-
 ## 🛠️ **Technologies Used**
 
 - **Python**: For data manipulation, analysis, and machine learning.
